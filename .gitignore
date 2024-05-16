@@ -1,0 +1,16 @@
+# Ignore folders
+build/*
+dist/*
+env/*
+utils/__pycache__/*
+__pycache__/*
+stockfish/src/*
+
+# Ignore files
+.env
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.spec
+stockfish/stockfishE
