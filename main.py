@@ -1,17 +1,13 @@
 # Copyright (c) 2024 Allen Cruiz. All rights reserved.
 # GitHub: https://github.com/AlienWolfX
+# Facebook: https://www.facebook.com/cruizallen
 
 import os
 import sys
 from dotenv import load_dotenv
 import utils
 import cv2 
-import numpy as np
-import pandas as pd
-import time
 from roboflow import Roboflow
-import matplotlib.pyplot as plt
-import numpy as np
 import chess
 from stockfish import Stockfish
 import chess.svg
@@ -132,7 +128,7 @@ def show_about():
     info_label = tk.Label(about_window, text="RookEye.ph Beta", font=("Arial", 16))
     info_label.pack(pady=10)
 
-    link_label = tk.Label(about_window, text="Coded with ❤️ by Allen Cruiz", font=("Arial", 12))
+    link_label = tk.Label(about_window, text="Made with ❤️ by Allen Cruiz", font=("Arial", 12))
     link_label.pack(pady=10)
     
 def clear_image():
